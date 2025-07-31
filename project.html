@@ -1,52 +1,108 @@
 <!doctype html>
 <html class="no-js" lang="en">
-   
-<!-- Mirrored from xinterio-demo.pbminfotech.com/html-demo/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Nov 2024 09:39:43 GMT -->
-<head>
-      <meta charset="utf-8">
-      <meta http-equiv="x-ua-compatible" content="ie=edge">
-      <title>Xinterio Demo1 – Interior Design HTML Template</title>
-      <meta name="robots" content="noindex, follow">
-      <meta name="description" content="">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <!-- Favicon -->
-      <link rel="shortcut icon" type="image/x-icon" href="images/fevicon.png">      
-      <!-- CSS
-         ============================================ -->
-      <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- Fontawesome -->
-      <link rel="stylesheet" href="css/fontawesome.css">
-      <!-- Flaticon -->
-      <link rel="stylesheet" href="css/flaticon.css">
-      <!-- Base Icons -->
-      <link rel="stylesheet" href="css/pbminfotech-base-icons.css">
-      <!-- Themify Icons -->
-      <link rel="stylesheet" href="css/themify-icons.css">
-      <!-- Slick -->
-      <link rel="stylesheet" href="css/swiper.min.css">
-      <!-- Magnific -->
-      <link rel="stylesheet" href="css/magnific-popup.css">
-      <!-- AOS -->
-      <link rel="stylesheet" href="css/aos.css">
-      <!-- Shortcode CSS -->
-      <link rel="stylesheet" href="css/shortcode.css">
-      <!-- Base CSS -->
-      <link rel="stylesheet" href="css/base.css">
-      <!-- Style CSS -->
-      <link rel="stylesheet" href="css/style.css">
-      <!-- Responsive CSS -->
-      <link rel="stylesheet" href="css/responsive.css">
 
-   </head>
-   <body>
+<!-- Mirrored from xinterio-demo.pbminfotech.com/html-demo/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Nov 2024 09:39:43 GMT -->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Xinterio Demo1 – Interior Design HTML Template</title>
+	<meta name="robots" content="noindex, follow">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="images/fevicon.png">
+	<!-- CSS
+         ============================================ -->
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Fontawesome -->
+	<link rel="stylesheet" href="css/fontawesome.css">
+	<!-- Flaticon -->
+	<link rel="stylesheet" href="css/flaticon.css">
+	<!-- Base Icons -->
+	<link rel="stylesheet" href="css/pbminfotech-base-icons.css">
+	<!-- Themify Icons -->
+	<link rel="stylesheet" href="css/themify-icons.css">
+	<!-- Slick -->
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<!-- Magnific -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- AOS -->
+	<link rel="stylesheet" href="css/aos.css">
+	<!-- Shortcode CSS -->
+	<link rel="stylesheet" href="css/shortcode.css">
+	<!-- Base CSS -->
+	<link rel="stylesheet" href="css/base.css">
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" href="css/responsive.css">
+	<style>
+		#search-box {
+			position: relative;
+			margin: 0 auto;
+			border: 1px solid #ccc;
+			padding: 5px;
+			border-radius: 4px
+		}
+		@media(max-width:768px) {
+			#search-box {
+				margin: 20px 0px;
+			}
+		}
+
+		#search-form {
+			height: 40px;
+			background-color: #fff;
+			overflow: hidden
+		}
+
+		#search-text {
+			font-size: 14px;
+			color: #ddd;
+			border-width: 0;
+			background: transparent;
+			line-height: 15px
+		}
+
+		#search-box input[type="text"] {
+			width: 90%;
+			padding: 10px 0 5px 1em;
+			color: #333;
+			outline: none
+		}
+
+		#search-button {
+			position: absolute;
+			top: 5px;
+			right: 5px;
+			height: 40px;
+			width: 80px;
+			color: #fff;
+			text-align: center;
+			border-width: 0;
+			background-color: #403226;
+			cursor: pointer;
+			text-transform: uppercase;
+			border-radius: 3px;
+			outline: 0
+		}
+
+		#search-button:hover {
+			background: #333
+		}
+	</style>
+</head>
+
+<body>
 
 	<!-- page wrapper -->
 	<div class="page-wrapper">
-		
-        <!-- Header Main Area -->
-        <header class="site-header header-style-1">
-			<div class="pbmit-header-overlay">
+
+		<!-- Header Main Area -->
+		<header class="new-header">
+			<div class="">
 				<div class="pbmit-main-header-area">
 					<div class="container-fluid">
 						<div class="pbmit-header-content d-flex justify-content-between align-items-center">
@@ -57,30 +113,23 @@
 											<img class="logo-img" src="./images/new-logo.png" alt="Xinterio">
 										</a>
 									</h1>
-									<div class="pbmit-sticky-corner  pbmit-top-right-corner">
+									<!-- <div class="pbmit-sticky-corner  pbmit-top-right-corner">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="" xmlns="http://www.w3.org/2000/svg">
-										   	<path d="M20 20V0C20 16 16 20 0 20H20Z" fill="red"></path>
+											   <path d="M20 20V0C20 16 16 20 0 20H20Z" fill="red"></path>
 										</svg>
-									</div>
-									<div class="pbmit-sticky-corner pbmit-bottom-left-corner">
+									</div> -->
+									<!-- <div class="pbmit-sticky-corner pbmit-bottom-left-corner">
 										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-										   	<path d="M20 20V0C20 12 12 20 0 20H20Z" fill="red"></path>
+											   <path d="M20 20V0C20 12 12 20 0 20H20Z" fill="red"></path>
 										</svg>
-									</div>
+									</div> -->
 								</div>
-								<div class="pbmit-button-box">
-									<div class="pbmit-header-button">
-										<a href="tel:+1(212)%20255-511">
-											<span class="pbmit-header-button-text-1">+918050193070 </span>			
-											<span class="pbmit-header-button-text-2">tel:+918050193070 </span>		
-										</a>
-									</div>
-								</div>
+
 							</div>
 							<div class="site-navigation">
 								<nav class="main-menu navbar-expand-xl navbar-light">
 									<div class="navbar-header">
-										<!-- Toggle Button --> 
+										<!-- Toggle Button -->
 										<button class="navbar-toggler" type="button">
 											<i class="pbmit-base-icon-menu-1"></i>
 										</button>
@@ -89,55 +138,37 @@
 									<div class="collapse navbar-collapse clearfix show" id="pbmit-menu">
 										<div class="pbmit-menu-wrap">
 											<span class="closepanel">
-												<svg class="qodef-svg--close qodef-m" xmlns="http://www.w3.org/2000/svg" width="20.163" height="20.163" viewBox="0 0 26.163 26.163">
-													<rect width="36" height="1" transform="translate(0.707) rotate(45)"></rect>
-													<rect width="36" height="1" transform="translate(0 25.456) rotate(-45)"></rect>
+												<svg class="qodef-svg--close qodef-m" xmlns="http://www.w3.org/2000/svg"
+													width="20.163" height="20.163" viewBox="0 0 26.163 26.163">
+													<rect width="36" height="1" transform="translate(0.707) rotate(45)">
+													</rect>
+													<rect width="36" height="1"
+														transform="translate(0 25.456) rotate(-45)"></rect>
 												</svg>
 											</span>
 											<ul class="navigation clearfix">
-												<li class="dropdown active">
-													<a href="#">Home</a>
-												
+												<li class=" ">
+													<a href="index.html">Home</a>
+
 												</li>
-												<li class="dropdown">
-													<a href="#">About Us</a>
-													<!-- <ul>
-														<li><a href=""></a></li>
-														<li><a href="our-history.html">Our History</a></li>
-														<li><a href="our-team.html">Our Team</a></li>
-														<li><a href="team-single-details.html">Team Single Details</a></li>
-														<li><a href="faq.html">Faq</a></li>
-													</ul> -->
+												<li class="">
+													<a href="about-us.html">About Us</a>
+
 												</li>
-												<li class="dropdown">
-													<a href="#">Services</a>
-													
+												<li class="active">
+													<a href="project.html">Projects</a>
+
 												</li>
-												
-												<!-- <li class="dropdown">
-													<a href="#">Blogs</a>
-													<ul>
-														<li class="dropdown">
-															<a href="#">Blog Masonry View</a>
-															<ul>
-																<li><a href="blog-m-grid-col-2.html">Grid Col 2</a></li>
-																<li><a href="blog-m-grid-col-3.html">Grid Col 3</a></li>
-																<li><a href="blog-m-grid-col-4.html">Grid Col 4</a></li>
-																<li><a href="blog-masonry-wide.html">Masonry Wide</a></li>
-															</ul>
-														</li>
-														<li class="dropdown">
-															<a href="#">Blog Grid View</a>
-															<ul>
-																<li><a href="blog-grid-col-2.html">Grid Col 2</a></li>
-																<li><a href="blog-grid-col-3.html">Grid Col 3</a></li>
-																<li><a href="blog-grid-col-4.html">Grid Col 4</a></li>
-																<li><a href="blog-sortable-grid-view.html">Sortable Grid View</a></li>
-															</ul>
-														</li>
-														<li><a href="blog-classic.html">Blog Classic</a></li>
-														<li><a href="blog-single-details.html">Blog Single Details</a></li>
-													</ul> -->
+												<li class="">
+													<a href="services.html">Services</a>
+
+												</li>
+												<li class="">
+													<a href="portfolio.html">Portfolio</a>
+
+												</li>
+
+
 												</li>
 												<li><a href="contact.html">Contact Us</a></li>
 											</ul>
@@ -146,9 +177,9 @@
 								</nav>
 							</div>
 							<div class="pbmit-right-box d-flex align-items-center">
-								
+
 								<div class="pbmit-button-box-second">
-									<a class="pbmit-btn" href="#">
+									<a class="pbmit-btn" href="https://api.whatsapp.com/send?phone=8050193070">
 										<span class="pbmit-button-content-wrapper">
 											<span class="pbmit-button-text">Book Consult</span>
 										</span>
@@ -159,37 +190,36 @@
 					</div>
 				</div>
 			</div>
-			<!-- Title Bar -->
+
+
+		</header>
+		<!-- Header Main Area End Here -->
 		<div class="pbmit-title-bar-wrapper">
 			<div class="container">
 				<div class="pbmit-title-bar-content">
 					<div class="pbmit-title-bar-content-inner">
 						<div class="pbmit-tbar">
 							<div class="pbmit-tbar-inner container">
-								<h1 class="pbmit-tbar-title"> Our services</h1>
+								<h1 class="pbmit-tbar-title"> Project</h1>
 							</div>
 						</div>
-						
+
 					</div>
-				</div> 
-			</div> 
+				</div>
+			</div>
 		</div>
-		<!-- Title Bar End-->
-        </header>
-        <!-- Header Main Area End Here -->
+		<!-- Page Content -->
+		<div class="page-content">
 
-        <!-- Page Content -->
-        <div class="page-content">
-            
-            
 
-          
 
-			
 
-			
 
-			<!-- Marquee Start --> 
+
+
+
+
+			<!-- Marquee Start -->
 			<section class="marquee-one">
 				<div class="container-fluid p-0">
 					<div class="swiper-slider marquee">
@@ -197,7 +227,7 @@
 							<article class="pbmit-marquee-effect-style-1 swiper-slide">
 								<div class="pbmit-tag-wrapper">
 									<h2 class="pbmit-element-title" data-text="Master Bedroom ">
-										Master Bedroom 
+										Master Bedroom
 									</h2>
 								</div>
 							</article>
@@ -226,20 +256,28 @@
 					</div>
 				</div>
 			</section>
-            <!-- Marquee End -->
+			<!-- Marquee End -->
 
 			<!-- Portfolio Start -->
 			<section class="pbmit-bg-color-light portfolio-one pbmit-sortable-yes">
 				<div class="container">
-					<div class="row align-items-center">
+					<div class="row align-items-center justify-content-between">
 						<div class="col-md-12 col-xl-4">
 							<div class="pbmit-heading-subheading animation-style2">
 								<h4 class="pbmit-subtitle">Process</h4>
 								<h2 class="pbmit-title">Our Latest Project</h2>
 							</div>
 						</div>
-						<div class="col-md-12 col-xl-8">
-							<div class="pbmit-sortable-list">
+						<div class="col-md-12 col-xl-6">
+
+							<div id='search-box'>
+								<form action='#' id='search-form' method='get' target='_top'>
+									<input id='search-text' name='q' placeholder='Search...'
+										type='text' />
+									<button id='search-button' type='submit'><span>Search</span></button>
+								</form>
+							</div>
+							<!-- <div class="pbmit-sortable-list">
 								<ul class="pbmit-sortable-list-ul">
 								   <li><a href="#" class="pbmit-sortable-link pbmit-selected" data-category="*" data-sortby="*">All</a></li>
 								   <li><a href="#" class="pbmit-sortable-link" data-sortby="architecture">Architecture</a></li>
@@ -248,7 +286,7 @@
 								   <li><a href="#" class="pbmit-sortable-link" data-sortby="interior">Interior</a></li>
 								   <li><a href="#" class="pbmit-sortable-link" data-sortby="kitchen">Kitchen</a></li>
 								</ul>
-							</div>
+							</div> -->
 						</div>
 					</div>
 					<div class="row pbmit-element-posts-wrapper">
@@ -256,150 +294,156 @@
 							<div class="pbminfotech-post-content">
 								<div class="pbmit-featured-img-wrapper">
 									<div class="pbmit-featured-wrapper">
-										<img src="images/homepage-1/portfolio/portfolio-01.jpg" class="img-fluid" alt="portfolio-01">
+										<img src="images/homepage-1/portfolio/portfolio-01.jpg" class="img-fluid"
+											alt="portfolio-01">
 									</div>
 								</div>
 								<div class="pbminfotech-box-content">
 									<div class="pbminfotech-titlebox">
 										<div class="pbmit-port-cat">
-											<a href="portfolio-grid-col-3.html" rel="tag">Bedroom</a>
+											<a href="" rel="tag">Bedroom</a>
 										</div>
 										<h3 class="pbmit-portfolio-title">
-											<a href="portfolio-detail-style-1.html">Innovation</a>
+											<a href="">Innovation</a>
 										</h3>
 									</div>
 								</div>
 								<div class="pbmit-portfolio-btn">
-									<a href="portfolio-detail-style-1.html">
+									<a href="">
 										<i class="pbmit-base-icon-pbmit-up-arrow"></i>
 									</a>
 								</div>
-								<a class="pbmit-link" href="portfolio-detail-style-1.html"></a>
+								<a class="pbmit-link" href=""></a>
 							</div>
 						</article>
 						<article class="pbmit-portfolio-style-3 col-md-4 furniture">
 							<div class="pbminfotech-post-content">
 								<div class="pbmit-featured-img-wrapper">
 									<div class="pbmit-featured-wrapper">
-										<img src="images/homepage-1/portfolio/portfolio-02.jpg" class="img-fluid" alt="portfolio-01">
+										<img src="images/homepage-1/portfolio/portfolio-02.jpg" class="img-fluid"
+											alt="portfolio-01">
 									</div>
 								</div>
 								<div class="pbminfotech-box-content">
 									<div class="pbminfotech-titlebox">
 										<div class="pbmit-port-cat">
-											<a href="portfolio-grid-col-3.html" rel="tag">Furniture</a>
+											<a href="" rel="tag">Furniture</a>
 										</div>
 										<h3 class="pbmit-portfolio-title">
-											<a href="portfolio-detail-style-1.html">Minimalism</a>
+											<a href="">Minimalism</a>
 										</h3>
 									</div>
 								</div>
 								<div class="pbmit-portfolio-btn">
-									<a href="portfolio-detail-style-1.html">
+									<a href="">
 										<i class="pbmit-base-icon-pbmit-up-arrow"></i>
 									</a>
 								</div>
-								<a class="pbmit-link" href="portfolio-detail-style-1.html"></a>
+								<a class="pbmit-link" href=""></a>
 							</div>
 						</article>
 						<article class="pbmit-portfolio-style-3 col-md-4 interior">
 							<div class="pbminfotech-post-content">
 								<div class="pbmit-featured-img-wrapper">
 									<div class="pbmit-featured-wrapper">
-										<img src="images/homepage-1/portfolio/portfolio-03.jpg" class="img-fluid" alt="portfolio-01">
+										<img src="images/homepage-1/portfolio/portfolio-03.jpg" class="img-fluid"
+											alt="portfolio-01">
 									</div>
 								</div>
 								<div class="pbminfotech-box-content">
 									<div class="pbminfotech-titlebox">
 										<div class="pbmit-port-cat">
-											<a href="portfolio-grid-col-3.html" rel="tag">Interior</a>
+											<a href="" rel="tag">Interior</a>
 										</div>
 										<h3 class="pbmit-portfolio-title">
-											<a href="portfolio-detail-style-1.html">Lighting</a>
+											<a href="">Lighting</a>
 										</h3>
 									</div>
 								</div>
 								<div class="pbmit-portfolio-btn">
-									<a href="portfolio-detail-style-1.html">
+									<a href="">
 										<i class="pbmit-base-icon-pbmit-up-arrow"></i>
 									</a>
 								</div>
-								<a class="pbmit-link" href="portfolio-detail-style-1.html"></a>
+								<a class="pbmit-link" href=""></a>
 							</div>
 						</article>
 						<article class="pbmit-portfolio-style-3 col-md-4 kitchen">
 							<div class="pbminfotech-post-content">
 								<div class="pbmit-featured-img-wrapper">
 									<div class="pbmit-featured-wrapper">
-										<img src="images/homepage-1/portfolio/portfolio-04.jpg" class="img-fluid" alt="portfolio-01">
+										<img src="images/homepage-1/portfolio/portfolio-04.jpg" class="img-fluid"
+											alt="portfolio-01">
 									</div>
 								</div>
 								<div class="pbminfotech-box-content">
 									<div class="pbminfotech-titlebox">
 										<div class="pbmit-port-cat">
-											<a href="portfolio-grid-col-3.html" rel="tag">Kitchen</a>
+											<a href="" rel="tag">Kitchen</a>
 										</div>
 										<h3 class="pbmit-portfolio-title">
-											<a href="portfolio-detail-style-1.html">Bold Tiles</a>
+											<a href="">Bold Tiles</a>
 										</h3>
 									</div>
 								</div>
 								<div class="pbmit-portfolio-btn">
-									<a href="portfolio-detail-style-1.html">
+									<a href="">
 										<i class="pbmit-base-icon-pbmit-up-arrow"></i>
 									</a>
 								</div>
-								<a class="pbmit-link" href="portfolio-detail-style-1.html"></a>
+								<a class="pbmit-link" href=""></a>
 							</div>
 						</article>
 						<article class="pbmit-portfolio-style-3 col-md-4 bedroom">
 							<div class="pbminfotech-post-content">
 								<div class="pbmit-featured-img-wrapper">
 									<div class="pbmit-featured-wrapper">
-										<img src="images/homepage-1/portfolio/portfolio-05.jpg" class="img-fluid" alt="portfolio-01">
+										<img src="images/homepage-1/portfolio/portfolio-05.jpg" class="img-fluid"
+											alt="portfolio-01">
 									</div>
 								</div>
 								<div class="pbminfotech-box-content">
 									<div class="pbminfotech-titlebox">
 										<div class="pbmit-port-cat">
-											<a href="portfolio-grid-col-3.html" rel="tag">Bedroom</a>
+											<a href="" rel="tag">Bedroom</a>
 										</div>
 										<h3 class="pbmit-portfolio-title">
-											<a href="portfolio-detail-style-1.html">Clean lines</a>
+											<a href="">Clean lines</a>
 										</h3>
 									</div>
 								</div>
 								<div class="pbmit-portfolio-btn">
-									<a href="portfolio-detail-style-1.html">
+									<a href="">
 										<i class="pbmit-base-icon-pbmit-up-arrow"></i>
 									</a>
 								</div>
-								<a class="pbmit-link" href="portfolio-detail-style-1.html"></a>
+								<a class="pbmit-link" href=""></a>
 							</div>
 						</article>
 						<article class="pbmit-portfolio-style-3 col-md-4 architecture">
 							<div class="pbminfotech-post-content">
 								<div class="pbmit-featured-img-wrapper">
 									<div class="pbmit-featured-wrapper">
-										<img src="images/homepage-1/portfolio/portfolio-06.jpg" class="img-fluid" alt="portfolio-01">
+										<img src="images/homepage-1/portfolio/portfolio-06.jpg" class="img-fluid"
+											alt="portfolio-01">
 									</div>
 								</div>
 								<div class="pbminfotech-box-content">
 									<div class="pbminfotech-titlebox">
 										<div class="pbmit-port-cat">
-											<a href="portfolio-grid-col-3.html" rel="tag">Architecture</a>
+											<a href="" rel="tag">Architecture</a>
 										</div>
 										<h3 class="pbmit-portfolio-title">
-											<a href="portfolio-detail-style-1.html">Integral</a>
+											<a href="">Integral</a>
 										</h3>
 									</div>
 								</div>
 								<div class="pbmit-portfolio-btn">
-									<a href="portfolio-detail-style-1.html">
+									<a href="">
 										<i class="pbmit-base-icon-pbmit-up-arrow"></i>
 									</a>
 								</div>
-								<a class="pbmit-link" href="portfolio-detail-style-1.html"></a>
+								<a class="pbmit-link" href=""></a>
 							</div>
 						</article>
 					</div>
@@ -407,10 +451,10 @@
 			</section>
 			<!-- Portfolio End -->
 
-			
+
 
 			<!-- Testimonial Start -->
-            <section class="pbmit-bg-color-light testimonial-one">
+			<section class="pbmit-bg-color-light testimonial-one">
 				<div class="container pbmit-col-stretched-yes pbmit-col-right">
 					<div class="pbmit-col-stretched-right">
 						<div class="row g-0">
@@ -423,7 +467,8 @@
 								</div>
 							</div>
 							<div class="col-md-12 col-lg-9 pbmit-testimonialbox-right">
-								<div class="swiper-slider" data-autoplay="true" data-loop="true" data-dots="false" data-arrows="true" data-columns="2.6" data-margin="30" data-effect="slide">
+								<div class="swiper-slider" data-autoplay="true" data-loop="true" data-dots="false"
+									data-arrows="true" data-columns="2.6" data-margin="30" data-effect="slide">
 									<div class="swiper-wrapper">
 										<!-- Slide1 -->
 										<article class="pbmit-testimonial-style-1 swiper-slide">
@@ -438,19 +483,24 @@
 													</div>
 													<div class="pbminfotech-box-desc">
 														<blockquote class="pbminfotech-testimonial-text">
-															<p>Their team are easy to work with and helped me make amazing websites in a short amount of time. Thanks guys for all your hard work. Trust us we looked for a very long time.</p>
+															<p>Their team are easy to work with and helped me make
+																amazing websites in a short amount of time. Thanks guys
+																for all your hard work. Trust us we looked for a very
+																long time.</p>
 														</blockquote>
 													</div>
 													<div class="pbminfotech-box-author">
 														<div class="pbmit-auther-content">
 															<h3 class="pbminfotech-box-title">Olivia Cruz</h3>
-															<div class="pbminfotech-testimonial-detail">Grorgia, USA</div>
+															<div class="pbminfotech-testimonial-detail">Grorgia, USA
+															</div>
 														</div>
 													</div>
 													<div class="pbminfotech-box-img">
 														<div class="pbmit-featured-img-wrapper">
 															<div class="pbmit-featured-wrapper">
-																<img src="images/homepage-1/reviewer/reviewer-01.jpg" class="img-fluid" alt="reviewer-04">
+																<img src="images/homepage-1/reviewer/reviewer-01.jpg"
+																	class="img-fluid" alt="reviewer-04">
 															</div>
 														</div>
 													</div>
@@ -470,19 +520,24 @@
 													</div>
 													<div class="pbminfotech-box-desc">
 														<blockquote class="pbminfotech-testimonial-text">
-															<p>Their team are easy to work with and helped me make amazing websites in a short amount of time. Thanks guys for all your hard work. Trust us we looked for a very long time.</p>
+															<p>Their team are easy to work with and helped me make
+																amazing websites in a short amount of time. Thanks guys
+																for all your hard work. Trust us we looked for a very
+																long time.</p>
 														</blockquote>
 													</div>
 													<div class="pbminfotech-box-author">
 														<div class="pbmit-auther-content">
 															<h3 class="pbminfotech-box-title">Martin Bailey</h3>
-															<div class="pbminfotech-testimonial-detail">Grorgia, USA</div>
+															<div class="pbminfotech-testimonial-detail">Grorgia, USA
+															</div>
 														</div>
 													</div>
 													<div class="pbminfotech-box-img">
 														<div class="pbmit-featured-img-wrapper">
 															<div class="pbmit-featured-wrapper">
-																<img src="images/homepage-1/reviewer/reviewer-02.jpg" class="img-fluid" alt="reviewer-04">
+																<img src="images/homepage-1/reviewer/reviewer-02.jpg"
+																	class="img-fluid" alt="reviewer-04">
 															</div>
 														</div>
 													</div>
@@ -502,19 +557,24 @@
 													</div>
 													<div class="pbminfotech-box-desc">
 														<blockquote class="pbminfotech-testimonial-text">
-															<p>Their team are easy to work with and helped me make amazing websites in a short amount of time. Thanks guys for all your hard work. Trust us we looked for a very long time.</p>
+															<p>Their team are easy to work with and helped me make
+																amazing websites in a short amount of time. Thanks guys
+																for all your hard work. Trust us we looked for a very
+																long time.</p>
 														</blockquote>
 													</div>
 													<div class="pbminfotech-box-author">
 														<div class="pbmit-auther-content">
 															<h3 class="pbminfotech-box-title">Alex Zender</h3>
-															<div class="pbminfotech-testimonial-detail">Grorgia, USA</div>
+															<div class="pbminfotech-testimonial-detail">Grorgia, USA
+															</div>
 														</div>
 													</div>
 													<div class="pbminfotech-box-img">
 														<div class="pbmit-featured-img-wrapper">
 															<div class="pbmit-featured-wrapper">
-																<img src="images/homepage-1/reviewer/reviewer-03.jpg" class="img-fluid" alt="reviewer-04">
+																<img src="images/homepage-1/reviewer/reviewer-03.jpg"
+																	class="img-fluid" alt="reviewer-04">
 															</div>
 														</div>
 													</div>
@@ -534,19 +594,24 @@
 													</div>
 													<div class="pbminfotech-box-desc">
 														<blockquote class="pbminfotech-testimonial-text">
-															<p>Their team are easy to work with and helped me make amazing websites in a short amount of time. Thanks guys for all your hard work. Trust us we looked for a very long time.</p>
+															<p>Their team are easy to work with and helped me make
+																amazing websites in a short amount of time. Thanks guys
+																for all your hard work. Trust us we looked for a very
+																long time.</p>
 														</blockquote>
 													</div>
 													<div class="pbminfotech-box-author">
 														<div class="pbmit-auther-content">
 															<h3 class="pbminfotech-box-title">Robert Gold</h3>
-															<div class="pbminfotech-testimonial-detail">Grorgia, USA</div>
+															<div class="pbminfotech-testimonial-detail">Grorgia, USA
+															</div>
 														</div>
 													</div>
 													<div class="pbminfotech-box-img">
 														<div class="pbmit-featured-img-wrapper">
 															<div class="pbmit-featured-wrapper">
-																<img src="images/homepage-1/reviewer/reviewer-04.jpg" class="img-fluid" alt="reviewer-04">
+																<img src="images/homepage-1/reviewer/reviewer-04.jpg"
+																	class="img-fluid" alt="reviewer-04">
 															</div>
 														</div>
 													</div>
@@ -568,12 +633,23 @@
 									<div class="pbmit-icon-wrap">
 										<div class="pbmit-ihbox-svg">
 											<div class="pbmit-ihbox-svg-wrapper">
-												<svg xmlns="http://www.w3.org/2000/svg" width="512" height="90.51" viewBox="0 0 512 90.51">
-													<path d="M89.26,29.43l-24.9-3.62L53.23,3.33c-2.2-4.44-9.48-4.44-11.68,0L30.42,25.81,5.58,29.43A6.52,6.52,0,0,0,2,40.55L20,58.11,15.74,82.88a6.51,6.51,0,0,0,9.46,6.87l22.19-11.7,22.25,11.7a6.5,6.5,0,0,0,3,.75,6.51,6.51,0,0,0,6.43-7.62L74.86,58.11l18-17.56a6.52,6.52,0,0,0-3.62-11.12Z"></path>
-													<path d="M193.55,29.43l-24.9-3.62L157.52,3.33c-2.2-4.44-9.48-4.44-11.68,0L134.71,25.81l-24.84,3.62a6.52,6.52,0,0,0-3.61,11.12l18,17.56L120,82.88a6.52,6.52,0,0,0,9.47,6.87l22.19-11.7,22.25,11.7a6.5,6.5,0,0,0,3,.75,6.51,6.51,0,0,0,6.43-7.62l-4.24-24.77,18-17.56a6.52,6.52,0,0,0-3.62-11.12Z"></path>
-													<path d="M297.84,29.43l-24.9-3.62L261.81,3.33c-2.2-4.44-9.48-4.44-11.68,0L239,25.81l-24.84,3.62a6.52,6.52,0,0,0-3.61,11.12l18,17.56-4.25,24.77a6.52,6.52,0,0,0,9.47,6.87L256,78.05l22.25,11.7a6.5,6.5,0,0,0,3,.75,6.51,6.51,0,0,0,6.43-7.62l-4.24-24.77,18-17.56a6.52,6.52,0,0,0-3.62-11.12Z"></path>
-													<path d="M402.13,29.43l-24.9-3.62L366.1,3.33c-2.2-4.44-9.48-4.44-11.69,0L343.29,25.81l-24.84,3.62a6.52,6.52,0,0,0-3.61,11.12l18,17.56L328.6,82.88a6.52,6.52,0,0,0,9.47,6.87l22.18-11.7,22.26,11.7a6.5,6.5,0,0,0,3,.75A6.51,6.51,0,0,0,392,82.88l-4.24-24.77,18-17.56a6.52,6.52,0,0,0-3.61-11.12Z"></path>
-													<path d="M511.68,33.86a6.54,6.54,0,0,0-5.26-4.43l-24.9-3.62L470.39,3.33c-2.2-4.44-9.48-4.44-11.69,0L447.58,25.81l-24.84,3.62a6.52,6.52,0,0,0-3.61,11.12l18,17.56-4.25,24.77a6.52,6.52,0,0,0,6.42,7.62,6.61,6.61,0,0,0,3.05-.75l22.19-11.7,22.26,11.7a6.46,6.46,0,0,0,6.86-.5,6.53,6.53,0,0,0,2.59-6.37L492,58.11l18-17.56A6.54,6.54,0,0,0,511.68,33.86Z"></path>
+												<svg xmlns="http://www.w3.org/2000/svg" width="512" height="90.51"
+													viewBox="0 0 512 90.51">
+													<path
+														d="M89.26,29.43l-24.9-3.62L53.23,3.33c-2.2-4.44-9.48-4.44-11.68,0L30.42,25.81,5.58,29.43A6.52,6.52,0,0,0,2,40.55L20,58.11,15.74,82.88a6.51,6.51,0,0,0,9.46,6.87l22.19-11.7,22.25,11.7a6.5,6.5,0,0,0,3,.75,6.51,6.51,0,0,0,6.43-7.62L74.86,58.11l18-17.56a6.52,6.52,0,0,0-3.62-11.12Z">
+													</path>
+													<path
+														d="M193.55,29.43l-24.9-3.62L157.52,3.33c-2.2-4.44-9.48-4.44-11.68,0L134.71,25.81l-24.84,3.62a6.52,6.52,0,0,0-3.61,11.12l18,17.56L120,82.88a6.52,6.52,0,0,0,9.47,6.87l22.19-11.7,22.25,11.7a6.5,6.5,0,0,0,3,.75,6.51,6.51,0,0,0,6.43-7.62l-4.24-24.77,18-17.56a6.52,6.52,0,0,0-3.62-11.12Z">
+													</path>
+													<path
+														d="M297.84,29.43l-24.9-3.62L261.81,3.33c-2.2-4.44-9.48-4.44-11.68,0L239,25.81l-24.84,3.62a6.52,6.52,0,0,0-3.61,11.12l18,17.56-4.25,24.77a6.52,6.52,0,0,0,9.47,6.87L256,78.05l22.25,11.7a6.5,6.5,0,0,0,3,.75,6.51,6.51,0,0,0,6.43-7.62l-4.24-24.77,18-17.56a6.52,6.52,0,0,0-3.62-11.12Z">
+													</path>
+													<path
+														d="M402.13,29.43l-24.9-3.62L366.1,3.33c-2.2-4.44-9.48-4.44-11.69,0L343.29,25.81l-24.84,3.62a6.52,6.52,0,0,0-3.61,11.12l18,17.56L328.6,82.88a6.52,6.52,0,0,0,9.47,6.87l22.18-11.7,22.26,11.7a6.5,6.5,0,0,0,3,.75A6.51,6.51,0,0,0,392,82.88l-4.24-24.77,18-17.56a6.52,6.52,0,0,0-3.61-11.12Z">
+													</path>
+													<path
+														d="M511.68,33.86a6.54,6.54,0,0,0-5.26-4.43l-24.9-3.62L470.39,3.33c-2.2-4.44-9.48-4.44-11.69,0L447.58,25.81l-24.84,3.62a6.52,6.52,0,0,0-3.61,11.12l18,17.56-4.25,24.77a6.52,6.52,0,0,0,6.42,7.62,6.61,6.61,0,0,0,3.05-.75l22.19-11.7,22.26,11.7a6.46,6.46,0,0,0,6.86-.5,6.53,6.53,0,0,0,2.59-6.37L492,58.11l18-17.56A6.54,6.54,0,0,0,511.68,33.86Z">
+													</path>
 												</svg>
 											</div>
 										</div>
@@ -586,13 +662,14 @@
 						</div>
 					</div>
 				</div>
-            </section>
-            <!-- Testimonial End -->
+			</section>
+			<!-- Testimonial End -->
 
-            <!-- Client Start --> 
-            <section class="section-lgb pbmit-bg-color-light">
+			<!-- Client Start -->
+			<section class="section-lgb pbmit-bg-color-light">
 				<div class="container">
-					<div class="swiper-slider" data-autoplay="true" data-loop="true" data-dots="false" data-arrows="false" data-columns="6" data-margin="0" data-effect="slide">
+					<div class="swiper-slider" data-autoplay="true" data-loop="true" data-dots="false"
+						data-arrows="false" data-columns="6" data-margin="0" data-effect="slide">
 						<div class="swiper-wrapper">
 							<!-- Slide1 -->
 							<article class="pbmit-client-style-1 swiper-slide">
@@ -600,12 +677,14 @@
 									<div class="pbmit-client-wrapper pbmit-client-with-hover-img">
 										<h4 class="pbmit-hide">Client 12</h4>
 										<div class="pbmit-client-hover-img">
-											<img src="images/homepage-1/client/client-global-01.png" class="img-fluid" alt="">
+											<img src="images/homepage-1/client/client-global-01.png" class="img-fluid"
+												alt="">
 
 										</div>
 										<div class="pbmit-featured-img-wrapper">
 											<div class="pbmit-featured-wrapper">
-												<img src="images/homepage-1/client/client-grey-01.png" class="img-fluid" alt="">
+												<img src="images/homepage-1/client/client-grey-01.png" class="img-fluid"
+													alt="">
 											</div>
 										</div>
 									</div>
@@ -617,11 +696,13 @@
 									<div class="pbmit-client-wrapper pbmit-client-with-hover-img">
 										<h4 class="pbmit-hide">Client 12</h4>
 										<div class="pbmit-client-hover-img">
-											<img src="images/homepage-1/client/client-global-02.png" class="img-fluid" alt="">
+											<img src="images/homepage-1/client/client-global-02.png" class="img-fluid"
+												alt="">
 										</div>
 										<div class="pbmit-featured-img-wrapper">
 											<div class="pbmit-featured-wrapper">
-												<img src="images/homepage-1/client/client-grey-02.png" class="img-fluid" alt="">
+												<img src="images/homepage-1/client/client-grey-02.png" class="img-fluid"
+													alt="">
 											</div>
 										</div>
 									</div>
@@ -633,11 +714,13 @@
 									<div class="pbmit-client-wrapper pbmit-client-with-hover-img">
 										<h4 class="pbmit-hide">Client 12</h4>
 										<div class="pbmit-client-hover-img">
-											<img src="images/homepage-1/client/client-global-03.png" class="img-fluid" alt="">
+											<img src="images/homepage-1/client/client-global-03.png" class="img-fluid"
+												alt="">
 										</div>
 										<div class="pbmit-featured-img-wrapper">
 											<div class="pbmit-featured-wrapper">
-												<img src="images/homepage-1/client/client-grey-03.png" class="img-fluid" alt="">
+												<img src="images/homepage-1/client/client-grey-03.png" class="img-fluid"
+													alt="">
 											</div>
 										</div>
 									</div>
@@ -649,11 +732,13 @@
 									<div class="pbmit-client-wrapper pbmit-client-with-hover-img">
 										<h4 class="pbmit-hide">Client 12</h4>
 										<div class="pbmit-client-hover-img">
-											<img src="images/homepage-1/client/client-global-04.png" class="img-fluid" alt="">
+											<img src="images/homepage-1/client/client-global-04.png" class="img-fluid"
+												alt="">
 										</div>
 										<div class="pbmit-featured-img-wrapper">
 											<div class="pbmit-featured-wrapper">
-												<img src="images/homepage-1/client/client-grey-04.png" class="img-fluid" alt="">
+												<img src="images/homepage-1/client/client-grey-04.png" class="img-fluid"
+													alt="">
 											</div>
 										</div>
 									</div>
@@ -665,11 +750,13 @@
 									<div class="pbmit-client-wrapper pbmit-client-with-hover-img">
 										<h4 class="pbmit-hide">Client 12</h4>
 										<div class="pbmit-client-hover-img">
-											<img src="images/homepage-1/client/client-global-05.png" class="img-fluid" alt="">
+											<img src="images/homepage-1/client/client-global-05.png" class="img-fluid"
+												alt="">
 										</div>
 										<div class="pbmit-featured-img-wrapper">
 											<div class="pbmit-featured-wrapper">
-												<img src="images/homepage-1/client/client-grey-05.png" class="img-fluid" alt="">
+												<img src="images/homepage-1/client/client-grey-05.png" class="img-fluid"
+													alt="">
 											</div>
 										</div>
 									</div>
@@ -681,11 +768,13 @@
 									<div class="pbmit-client-wrapper pbmit-client-with-hover-img">
 										<h4 class="pbmit-hide">Client 12</h4>
 										<div class="pbmit-client-hover-img">
-											<img src="images/homepage-1/client/client-global-06.png" class="img-fluid" alt="">
+											<img src="images/homepage-1/client/client-global-06.png" class="img-fluid"
+												alt="">
 										</div>
 										<div class="pbmit-featured-img-wrapper">
 											<div class="pbmit-featured-wrapper">
-												<img src="images/homepage-1/client/client-grey-06.png" class="img-fluid" alt="">
+												<img src="images/homepage-1/client/client-grey-06.png" class="img-fluid"
+													alt="">
 											</div>
 										</div>
 									</div>
@@ -697,11 +786,13 @@
 									<div class="pbmit-client-wrapper pbmit-client-with-hover-img">
 										<h4 class="pbmit-hide">Client 12</h4>
 										<div class="pbmit-client-hover-img">
-											<img src="images/homepage-1/client/client-global-07.png" class="img-fluid" alt="">
+											<img src="images/homepage-1/client/client-global-07.png" class="img-fluid"
+												alt="">
 										</div>
 										<div class="pbmit-featured-img-wrapper">
 											<div class="pbmit-featured-wrapper">
-												<img src="images/homepage-1/client/client-grey-07.png" class="img-fluid" alt="">
+												<img src="images/homepage-1/client/client-grey-07.png" class="img-fluid"
+													alt="">
 											</div>
 										</div>
 									</div>
@@ -713,11 +804,13 @@
 									<div class="pbmit-client-wrapper pbmit-client-with-hover-img">
 										<h4 class="pbmit-hide">Client 12</h4>
 										<div class="pbmit-client-hover-img">
-											<img src="images/homepage-1/client/client-global-08.png" class="img-fluid" alt="">
+											<img src="images/homepage-1/client/client-global-08.png" class="img-fluid"
+												alt="">
 										</div>
 										<div class="pbmit-featured-img-wrapper">
 											<div class="pbmit-featured-wrapper">
-												<img src="images/homepage-1/client/client-grey-08.png" class="img-fluid" alt="">
+												<img src="images/homepage-1/client/client-grey-08.png" class="img-fluid"
+													alt="">
 											</div>
 										</div>
 									</div>
@@ -726,18 +819,18 @@
 						</div>
 					</div>
 				</div>
-            </section>
-            <!-- Client End -->
+			</section>
+			<!-- Client End -->
 
-		
 
-			
 
-        </div>
-        <!-- Page Content End -->
 
-        <!-- footer -->
-        <footer class="site-footer footer-style-1 pbmit-bg-color-secondary">
+
+		</div>
+		<!-- Page Content End -->
+
+		<!-- footer -->
+		<footer class="site-footer footer-style-1 pbmit-bg-color-secondary">
 			<div class="footer-wrap pbmit-footer-widget-area">
 				<div class="container">
 					<div class="row">
@@ -787,7 +880,10 @@
 					<div class="container">
 						<div class="row align-items-center">
 							<div class="col-md-4 pbmit-footer-left">
-								<span class="pbmit-email-text"> <a href="https://xinterio-demo.pbminfotech.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f49c9198989bb4918c9599849891da979b99">[email&#160;protected]</a></span>
+								<span class="pbmit-email-text"> <a
+										href="https://xinterio-demo.pbminfotech.com/cdn-cgi/l/email-protection"
+										class="__cf_email__"
+										data-cfemail="f49c9198989bb4918c9599849891da979b99">[email&#160;protected]</a></span>
 								<span class="pbmit-phone-number"> +79 2589 63598</span>
 							</div>
 							<div class="col-md-4 pbmit-footer-right">
@@ -816,7 +912,7 @@
 										</a>
 									</li>
 								</ul>
-							</div>	
+							</div>
 						</div>
 					</div>
 				</div>
@@ -825,28 +921,30 @@
 				<div class="container">
 					<div class="pbmit-footer-text-inner">
 						<div class="row">
-							<div class="col-md-12"> 
-								<div class="pbmit-footer-copyright-text-area"> Copyright © 2024 <a href="index.html">Xinterio Demo1</a>, All Rights Reserved.</div>
+							<div class="col-md-12">
+								<div class="pbmit-footer-copyright-text-area"> Copyright © 2024 <a
+										href="index.html">Xinterio Demo1</a>, All Rights Reserved.</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-        </footer>
+		</footer>
 		<!-- footer End -->
 
-    </div>
-    <!-- page wrapper End -->
+	</div>
+	<!-- page wrapper End -->
 
 	<!-- Search Box Start Here -->
 	<div class="pbmit-search-overlay">
 		<div class="pbmit-icon-close">
-			<svg class="qodef-svg--close qodef-m" xmlns="http://www.w3.org/2000/svg" width="28.163" height="28.163" viewBox="0 0 26.163 26.163">
+			<svg class="qodef-svg--close qodef-m" xmlns="http://www.w3.org/2000/svg" width="28.163" height="28.163"
+				viewBox="0 0 26.163 26.163">
 				<rect width="36" height="1" transform="translate(0.707) rotate(45)"></rect>
 				<rect width="36" height="1" transform="translate(0 25.456) rotate(-45)"></rect>
 			</svg>
 		</div>
-		<div class="pbmit-search-outer"> 
+		<div class="pbmit-search-outer">
 			<form class="pbmit-site-searchform">
 				<input type="search" class="form-control field searchform-s" name="s" placeholder="Search …">
 				<button type="submit"></button>
@@ -859,14 +957,15 @@
 	<div class="pbmit-progress-wrap">
 		<svg class="pbmit-progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
 			<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
-		</svg>	
+		</svg>
 	</div>
 	<!-- Scroll To Top End -->
 
 	<!-- JS
 		============================================ -->
 	<!-- jQuery JS -->
-	<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery.min.js"></script>
+	<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+	<script src="js/jquery.min.js"></script>
 	<!-- Popper JS -->
 	<script src="js/popper.min.js"></script>
 	<!-- Bootstrap JS -->
@@ -882,9 +981,9 @@
 	<!-- Magnific JS -->
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<!-- Circle Progress JS -->
-	<script src="js/circle-progress.js"></script> 
+	<script src="js/circle-progress.js"></script>
 	<!-- countdown JS -->
-	<script src="js/jquery.countdown.min.js"></script> 
+	<script src="js/jquery.countdown.min.js"></script>
 	<!-- AOS -->
 	<script src="js/aos.js"></script>
 	<!-- GSAP -->
@@ -901,12 +1000,18 @@
 	<!-- GSAP Animation -->
 	<script src='js/gsap-animation.js'></script>
 	<!-- Isotope JS -->
-	<script src="js/isotope.pkgd.min.js"></script> 
+	<script src="js/isotope.pkgd.min.js"></script>
 	<!-- Scripts JS -->
 	<script src="js/scripts.js"></script>
 
-   <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8e703190d8af899d',t:'MTczMjM1NDc4NC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='../cdn-cgi/challenge-platform/h/g/scripts/jsd/e4025c85ea63/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"8e703190d8af899d","version":"2024.10.5","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"125856bf84ab44059737e93b01aa0fef","b":1}' crossorigin="anonymous"></script>
+	<script>(function () { function c() { var b = a.contentDocument || a.contentWindow.document; if (b) { var d = b.createElement('script'); d.innerHTML = "window.__CF$cv$params={r:'8e703190d8af899d',t:'MTczMjM1NDc4NC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='../cdn-cgi/challenge-platform/h/g/scripts/jsd/e4025c85ea63/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);"; b.getElementsByTagName('head')[0].appendChild(d) } } if (document.body) { var a = document.createElement('iframe'); a.height = 1; a.width = 1; a.style.position = 'absolute'; a.style.top = 0; a.style.left = 0; a.style.border = 'none'; a.style.visibility = 'hidden'; document.body.appendChild(a); if ('loading' !== document.readyState) c(); else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c); else { var e = document.onreadystatechange || function () { }; document.onreadystatechange = function (b) { e(b); 'loading' !== document.readyState && (document.onreadystatechange = e, c()) } } } })();</script>
+	<script defer
+		src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+		integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
+		data-cf-beacon='{"rayId":"8e703190d8af899d","version":"2024.10.5","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"125856bf84ab44059737e93b01aa0fef","b":1}'
+		crossorigin="anonymous"></script>
 </body>
 
 <!-- Mirrored from xinterio-demo.pbminfotech.com/html-demo/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Nov 2024 09:41:13 GMT -->
+
 </html>

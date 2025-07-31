@@ -4497,7 +4497,7 @@ body {
 }
 .pbmit-portfolio-style-3 .pbmit-featured-wrapper img{
 	width: 100%;
-	height: 300px;
+	height: 250px;
     object-fit: cover;
 	-webkit-transition: all 0.5s ease 0s;
 	-moz-transition: all 0.5s ease 0s;
@@ -4505,6 +4505,11 @@ body {
 	-o-transition: all 0.5s ease 0s;
 	transition: all 0.5s ease 0s;
 	border-radius: 30px;
+}
+@media (max-width: 767px){
+	.pbmit-portfolio-style-3 .pbmit-featured-wrapper img{
+		height: 200px;
+	}
 }
 .pbmit-portfolio-style-3:hover .pbmit-featured-wrapper img{
 	-webkit-transform: scale(1.1);
